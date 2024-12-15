@@ -65,9 +65,8 @@ export default function HomeScreen() {
 
   return (
     <View className="mx-6 my-10">
-      <View className="flex flex-row items-center justify-between w-full mb-8">
+      <View className="mb-8">
         <Text className="text-3xl font-bold text-center">Movies Inc</Text>
-        <Ionicons name="menu" size={20} color="black" />
       </View>
       <ScrollView>
         <View className="flex flex-col gap-6">
